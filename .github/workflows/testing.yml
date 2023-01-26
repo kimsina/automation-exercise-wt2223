@@ -49,7 +49,7 @@ jobs:
       - name: "Create coverage report"
         run: coverage report
       - name: "Create XML"
-        run: coverage .xml
+        run: coverage xml
       - name: "Upload XML file"
         uses: actions/upload-artifact@v2
         with:
